@@ -18,8 +18,8 @@ app.use(cors({
 app.use(express.json());
 
 // Configuration for Google search API
-const GOOGLE_API_KEY = 'AIzaSyBgwzoNbaAePUngsVKmoDhYeqhqgNtpnOA'; // Replace with your API key
-const GOOGLE_CSE_ID = '86f248a0d941d4c0e'; // Replace with your custom search engine ID
+const GOOGLE_API_KEY = 'APIKEY'; // Replace with your API key
+const GOOGLE_CSE_ID = 'searchEngineID'; // Replace with your custom search engine ID
 
 // Function to normalise text
 function normaliseText(text) {
